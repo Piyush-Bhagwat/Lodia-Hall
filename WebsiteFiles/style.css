@@ -1,0 +1,297 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0;
+}
+
+body{
+    background-color: #FFECEF;
+}
+
+/* Navigation Bar */
+
+.LogoText {
+    font-family: 'Crimson Text', serif;
+    font-weight: bold;
+    font-size: 1.6em;
+}
+
+li,
+a,
+button {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #251B37;
+    text-decoration: none;
+}
+
+section{
+    padding: 2% 10%;
+}   
+
+.Navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 10%;
+}
+
+.navLinks {
+    list-style: none;
+}
+
+.navLinks li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+a:hover {
+    color: #251B37;
+}
+
+.navLinks li:hover {
+    transition: 0.3s cubic-bezier(0.5, 2.5, 0.75, 0.12);
+    transform: translateY(-4px);
+    box-shadow: 0px 3px 0px #251B37;
+    color: #251B37;
+}
+
+.btn {
+    border: 2px solid #251B37;
+    border-radius: 22px;
+    padding: 8px 18px;
+    transition: 0.3s cubic-bezier(0.5, 2.5, 0.75, 0.12);
+}
+
+.btn:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 0px #251B37;
+}
+
+/* Burger Animaytion */
+
+.burger {
+    display: none;   
+}
+
+.burger div {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 5px;
+    border-radius: 2px;
+    transition: 0.4s ease;
+}
+
+@media screen and (max-width: 726px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .navLinks {
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        top: 8vh;
+        background-color: #FFECEF;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        transform: translateX(100%);
+        transition: 0.4s ease;
+        justify-content: space-evenly;
+    }
+
+    .navLinks li {
+        opacity: 0%;
+    }
+
+    .burger {
+        display: block;
+    }
+}
+
+.navActive {
+    transform: translateX(0%);
+}
+
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.toggle .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle .line2 {
+    opacity: 0;
+}
+
+.toggle .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+
+}
+
+
+.br{
+    height: 1px;
+    width: 80%;
+    opacity: 60%;
+    margin: auto;
+    border-radius: 1px;
+    background-color: #251B37;
+}
+
+
+/* content  */
+
+.content{
+    padding: 2% 10%;
+}
+
+h1{
+    font-family: 'Crimson Text', serif;
+    font-size: 4em;
+    font-weight: bold;
+    line-height: 1.6;
+}
+
+h2{
+    font-family: 'Crimson Text', serif;
+    font-size: 3.4em;
+}
+
+h3{
+    font-family: 'Crimson Text', serif;
+    font-size: 3em;
+}
+
+h4{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2rem;
+    word-spacing: 3px;
+    line-height: 1.5;
+    font-weight: lighter;
+}
+
+p{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: lighter;
+    font-size: 1.2em;
+}
+
+.mainPhotoCnt{
+    text-align: center;
+}
+
+.mainPhoto{
+    height: 520px;
+    border-radius: 260px;
+    /* box-shadow: 7px 9px 18px 3px #8f8486; */
+}
+
+.bookBtn{
+    background-color: #FFCACA;
+    border-radius: 26px;
+    padding: 8px 30px;
+    border: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 1.6em;
+}
+
+.bookBtn:hover{
+    background-color: #FFCACA;
+}
+
+.titleCol{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+.events{
+    text-align: center;
+}
+
+.space20{
+    margin: 20px;
+}
+
+.space40{
+    margin: 40px;
+}
+
+.subtitle{
+    background-color: #FFCACA;
+    text-align: center;
+    margin: 30px 0px;
+    padding: 30px;
+}
+
+.centerCol{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.verticalCenter{
+    display: flex;
+    align-items: center;
+}
+
+.center{
+    text-align: center;
+    padding: 20px;
+}
+
+.portraitPic{
+    height: 350px;
+    border-radius: 175px;
+}
+
+.hiItem{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.hiItem i{
+    font-size: 3em;
+}
+
+.locText{
+    text-align: left;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+
+}
+.footer i{
+    font-size: 3em;
+    color: #251B37;
+    padding: 2px 30px;
+}
+.footer i:hover{
+    transition: 0.3s cubic-bezier(0.5, 2.5, 0.75, 0.12);
+    transform: translateY(-4px);
+    box-shadow: 0px 3px 0px #251B37;
+    color: #251B37;
+}

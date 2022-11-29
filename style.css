@@ -4,9 +4,16 @@
     margin: 0;
 }
 
+html{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 body {
     background-color: #FFECEF;
     scroll-behavior: smooth;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 /* Navigation Bar */
@@ -36,8 +43,6 @@ section {
     justify-content: space-between;
     align-items: center;
     padding: 60px 10% 10px;
-    /* position: fixed; */
-    /* top: 0; */
     position: sticky;
     top: -7%;
     width: 100%;
@@ -92,65 +97,6 @@ a:hover {
     border-radius: 2px;
     transition: 0.4s ease;
 }
-
-@media screen and (max-width: 726px) {
-    body {
-        overflow-x: hidden;
-    }
-
-    .navLinks {
-        position: absolute;
-        right: 0px;
-        height: 92vh;
-        top: 8vh;
-        background-color: #FFECEF;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 50%;
-        transform: translateX(100%);
-        transition: 0.4s ease;
-        justify-content: space-evenly;
-    }
-
-    .navLinks li {
-        opacity: 0%;
-    }
-
-    .burger {
-        display: block;
-    }
-}
-
-.navActive {
-    transform: translateX(0%);
-}
-
-@keyframes navLinkFade {
-    from {
-        opacity: 0;
-        transform: translateX(50px);
-    }
-
-    to {
-        opacity: 1;
-        transform: translateX(0px);
-    }
-}
-
-.toggle .line1 {
-    transform: rotate(-45deg) translate(-5px, 6px);
-}
-
-.toggle .line2 {
-    opacity: 0;
-}
-
-.toggle .line3 {
-    transform: rotate(45deg) translate(-5px, -6px);
-
-}
-
 
 .br {
     height: 1px;
@@ -326,4 +272,105 @@ p {
 .titleShow {
     transform: translateY(0);
     opacity: 1;
+}
+
+
+
+@media screen and (max-width: 726px) {
+    h1{
+        font-size: 3em;
+        line-height: 1.3;
+    }
+
+    h3{
+        font-size: 2em;
+    }
+
+    i{
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 0.9em;
+    }
+
+    section{
+        text-align: center;
+    }
+
+    .titleCol{
+        align-items: center;
+    }
+
+    .mainPhoto{
+        height: 420px;
+        border-radius: 210px;
+    }
+    
+    .portraitPic{
+        height: 240px;
+        border-radius: 120px;
+    }
+
+    .locText{
+        text-align: center;
+    }
+
+    .footer i{
+        font-size: 2em;
+        color: #251B37;
+        padding: 2px 20px;
+    }
+
+    .navLinks {
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        top: 8vh;
+        background-color: #FFECEF;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        transform: translateX(100%);
+        transition: 0.4s ease;
+        justify-content: space-evenly;
+    }
+
+    .navLinks li {
+        opacity: 0%;
+    }
+
+    .burger {
+        display: block;
+    }
+}
+
+.navActive {
+    transform: translateX(0%);
+}
+
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.toggle .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle .line2 {
+    opacity: 0;
+}
+
+.toggle .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+
 }

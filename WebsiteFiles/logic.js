@@ -21,3 +21,32 @@ const navSlide = () => {
 }
 
 navSlide();
+
+
+const observer = new IntersectionObserver((entries) =>{
+    entries.forEach((entry) => {
+        if(entry.isIntersecting){
+            entry.target.classList.add("show");
+        }else{
+            entry.target.classList.remove("show");
+        }
+    });
+});
+
+const titleObserver = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        if(entry.isIntersecting){
+            entry.target.classList.add('titleShow');
+        }else{
+            entry.target.classList.remove('titleShow');
+
+        }
+    });
+});
+
+const hiddentELements = document.querySelectorAll(".hidden");
+hiddentELements.forEach((el) => observer.observe(el));
+
+const hiddenTitle = document.querySelectorAll('.titleHidden');
+hiddenTitle.forEach((el) => titleObserver.observe(el));
+

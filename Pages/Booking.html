@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Booking</title>
+
+        <!-- fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Ubuntu:wght@300;400&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- bootstrap -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+            crossorigin="anonymous"
+        />
+
+        <!-- font Awesome  -->
+        <script
+            src="https://kit.fontawesome.com/50889841b5.js"
+            crossorigin="anonymous"
+        ></script>
+
+        <!-- stylesheet -->
+        <link rel="stylesheet" href="../style.css" />
+    </head>
+
+    <body>
+        <section class="Navigation">
+            <h3 class="LogoText">Lodia Hall</h3>
+            <nav>
+                <ul class="navLinks">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="Booking.html">Pricing</a></li>
+                    <a href="#" class="cta"
+                        ><button class="btn">Contact Us</button></a
+                    >
+                </ul>
+            </nav>
+
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </section>
+
+        <section class="booking hidden">
+            <div class="textContainer">
+                <div class="textBorder formContainer">
+                    <h1>Book Hall</h1>
+                    <form action="post">
+                        <div class="textFeild">
+                            <input type="text" id="name" required>
+                            <span></span> 
+                            <label for="name">Name</label>
+                        </div>
+                        <div class="textFeild">
+                            <input type="tel" id="phoneNo" required>
+                            <span></span>
+                            <label for="phoneNo">Mobile No</label>
+                        </div>
+                        <div class="textFeild">
+                            <input type="date" id="date" placeholder="" required>
+                            <span></span>
+                            <label for="date">Date</label>
+                        </div>
+                        <div class="textFeild">
+                            <input type="number" id="noOfPeople" required>
+                            <span></span>
+                            <label for="noOfPeople">Number of People</label>
+                        </div>
+
+                        <button type="submit" class="btn">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+            crossorigin="anonymous"
+        ></script>
+        <script src="../logic.js"></script>
+    </body>
+</html>

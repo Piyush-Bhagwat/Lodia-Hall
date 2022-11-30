@@ -248,7 +248,7 @@ p {
     border: 20px solid #fff3f3;
 }
 
-.textContainer{
+.textContainer {
     background-color: #fff3f3;
     height: 80%;
     padding: 3%;
@@ -259,7 +259,7 @@ p {
 
 }
 
-.textBorder{
+.textBorder {
     padding: 1.5%;
     border: 3px solid #FFCACA;
     border-radius: 5px;
@@ -356,6 +356,17 @@ p {
         text-align: center;
     }
 
+    .Navigation {
+        padding: 60px 10% 10px;
+        position: fixed;
+        top: -7%;
+        width: 100%;
+    }
+
+    .content {
+        padding: 18% 10% 3%;
+    }
+
     .titleCol {
         align-items: center;
     }
@@ -381,22 +392,24 @@ p {
         padding: 2px 20px;
     }
 
-    .textContainer{
+    .textContainer {
         height: 100%;
     }
 
     .navLinks {
         position: absolute;
         right: 0px;
-        height: 92vh;
+        height: 99vh;
         top: 8vh;
-        background-color: #FFECEF;
+        background-color: #ffecefbf;
+        -webkit-backdrop-filter: blur(8px);
+        backdrop-filter: blur(8px);
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 50%;
+        width: 100%;
         transform: translateX(100%);
-        transition: 0.4s ease;
+        transition: 0.8s ease;
         justify-content: space-evenly;
     }
 

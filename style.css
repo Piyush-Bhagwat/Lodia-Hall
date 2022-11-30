@@ -4,7 +4,7 @@
     margin: 0;
 }
 
-html{
+html {
     max-width: 100%;
     overflow-x: visible;
 }
@@ -13,7 +13,7 @@ body {
     background-color: #FFECEF;
     scroll-behavior: smooth;
     max-width: 100%;
-    overflow-x:visible;
+    overflow-x: visible;
 }
 
 /* Navigation Bar */
@@ -52,7 +52,7 @@ section {
 
 .navLinks {
     list-style: none;
-    
+
 }
 
 .navLinks li {
@@ -214,20 +214,20 @@ p {
     padding: 20px;
 }
 
-.card{
+.card {
     background-color: #FFECEF;
     border: none;
 }
 
-.imgContainer{
-    width: 30em;
-    height: 280px;
+.imgContainer {
+    width: 100%;
+    height: 100%;
     overflow: hidden;
     position: relative;
     border-radius: 5px;
 }
 
-.imgZoom{
+.imgZoom {
     border-radius: 0;
     width: 100%;
     height: 100%;
@@ -236,13 +236,33 @@ p {
     transition: all 1s;
 }
 
-.imgZoom:hover{
+.imgZoom:hover {
     transform: scale(1.2);
 }
+
+/* Testimonials */
 
 .portraitPic {
     height: 350px;
     border-radius: 175px;
+    border: 20px solid #fff3f3;
+}
+
+.textContainer{
+    background-color: #fff3f3;
+    height: 80%;
+    padding: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+
+}
+
+.textBorder{
+    padding: 1.5%;
+    border: 3px solid #FFCACA;
+    border-radius: 5px;
 }
 
 .hiItem {
@@ -256,7 +276,11 @@ p {
 }
 
 .locText {
-    text-align: left;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .footer {
@@ -305,20 +329,22 @@ p {
 
 
 @media screen and (max-width: 726px) {
-    html, body{
+
+    html,
+    body {
         overflow-x: hidden;
     }
 
-    h1{
+    h1 {
         font-size: 3em;
         line-height: 1.3;
     }
 
-    h3{
+    h3 {
         font-size: 2em;
     }
 
-    i{
+    i {
         font-size: 2em;
     }
 
@@ -326,32 +352,37 @@ p {
         font-size: 0.9em;
     }
 
-    section{
+    section {
         text-align: center;
     }
 
-    .titleCol{
+    .titleCol {
         align-items: center;
     }
 
-    .mainPhoto{
+    .mainPhoto {
         height: 420px;
         border-radius: 210px;
     }
-    
-    .portraitPic{
+
+    .portraitPic {
         height: 240px;
         border-radius: 120px;
     }
 
-    .locText{
+    .locText {
         text-align: center;
+
     }
 
-    .footer i{
+    .footer i {
         font-size: 2em;
         color: #251B37;
         padding: 2px 20px;
+    }
+
+    .textContainer{
+        height: 100%;
     }
 
     .navLinks {

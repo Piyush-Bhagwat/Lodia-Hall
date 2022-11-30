@@ -6,14 +6,14 @@
 
 html{
     max-width: 100%;
-    overflow-x: hidden;
+    overflow-x: visible;
 }
 
 body {
     background-color: #FFECEF;
     scroll-behavior: smooth;
     max-width: 100%;
-    overflow-x: hidden;
+    overflow-x:visible;
 }
 
 /* Navigation Bar */
@@ -57,7 +57,8 @@ section {
 
 .navLinks li {
     display: inline-block;
-    padding: 0px 20px;
+    padding: 0px 10px;
+    margin: 0px 10px;
 }
 
 a:hover {
@@ -111,7 +112,7 @@ a:hover {
 /* content  */
 
 .content {
-    padding: 10% 10%;
+    padding: 3% 10%;
 }
 
 h1 {
@@ -213,6 +214,32 @@ p {
     padding: 20px;
 }
 
+.card{
+    background-color: #FFECEF;
+    border: none;
+}
+
+.imgContainer{
+    width: 30em;
+    height: 280px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 5px;
+}
+
+.imgZoom{
+    border-radius: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 1s;
+}
+
+.imgZoom:hover{
+    transform: scale(1.2);
+}
+
 .portraitPic {
     height: 350px;
     border-radius: 175px;
@@ -242,7 +269,8 @@ p {
 .footer i {
     font-size: 3em;
     color: #251B37;
-    padding: 2px 30px;
+    padding: 2px 15px;
+    margin: 0px 15px;
 }
 
 .footer i:hover {
@@ -277,6 +305,10 @@ p {
 
 
 @media screen and (max-width: 726px) {
+    html, body{
+        overflow-x: hidden;
+    }
+
     h1{
         font-size: 3em;
         line-height: 1.3;

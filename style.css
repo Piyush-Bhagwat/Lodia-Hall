@@ -424,6 +424,10 @@ p {
     transform: translateX(0%);
 }
 
+.stuck{
+    overflow: hidden;
+}
+
 @keyframes navLinkFade {
     from {
         opacity: 0;

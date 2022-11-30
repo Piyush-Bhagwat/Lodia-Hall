@@ -306,13 +306,11 @@ p {
 
 .hidden {
     opacity: 0;
-    filter: blur(8px);
     transition: all 1s ease;
 }
 
 .show {
     opacity: 1;
-    filter: blur(0);
 }
 
 .titleHidden {

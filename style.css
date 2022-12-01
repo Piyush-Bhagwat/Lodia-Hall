@@ -457,6 +457,7 @@ input[type=date]:focus::-webkit-datetime-edit {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    padding: 20px;
 }
 
 .contactFooter i {
@@ -471,6 +472,7 @@ input[type=date]:focus::-webkit-datetime-edit {
     padding: 12px;
     border-radius: 2em;
 }
+
 
 @media screen and (max-width: 800px) {
 
@@ -588,6 +590,10 @@ input[type=date]:focus::-webkit-datetime-edit {
     .galleryBox .dream {
         width: 100%;
         padding: 0;
+    }
+
+    .mainIcon{
+        font-size: 2.5em;
     }
 }
 

@@ -179,6 +179,17 @@ a:hover {
     align-items: flex-start;
 }
 
+/* Weclocm */
+.welcome{
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./Images/BanquetHall.jpg');
+}
 /* Events */
 
 .events {
@@ -225,7 +236,7 @@ a:hover {
 .subtitle {
     background-color: #FFCACA;
     text-align: center;
-    margin: 30px 0px;
+    margin: 0px 0px;
     padding: 30px;
 }
 
@@ -541,10 +552,6 @@ input[type=date]:focus::-webkit-datetime-edit {
         font-size: 2em;
         color: #251B37;
         padding: 2px 5px;
-    }
-
-    .textContainer {
-        height: 100%;
     }
 
     .navLinks {

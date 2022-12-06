@@ -6,7 +6,7 @@ const navSlide = () => {
     const htmlEL = document.querySelector('html');
 
     burger.addEventListener("click", () => {
-        nav.classList.toggle("navActive");
+        nav.classList.toggle("navigationActive");
         body.classList.toggle("stuck");
         htmlEL.classList.toggle("stuck");
 

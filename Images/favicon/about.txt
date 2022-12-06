@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Crimson Text
+- Font Author: Copyright 2010 The Crimson Text Project Authors (https://github.com/googlefonts/Crimson)
+- Font Source: http://fonts.gstatic.com/s/crimsontext/v19/wlp2gwHKFkZgtmSR3NB0oRJvaAJSA_JN3Q.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))

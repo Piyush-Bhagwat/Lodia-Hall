@@ -219,7 +219,7 @@ a:hover {
 }
 
 .aboutImage {
-    width: 100%;
+    width: fit-content;
     position: relative;
 }
 

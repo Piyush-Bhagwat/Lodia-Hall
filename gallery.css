@@ -1,0 +1,28 @@
+.gallery {
+    padding: 3% 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px 20px 0px 20px;
+}
+
+.galleryBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.galleryBox .dream {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    padding: 0 0.5%;
+}
+
+.galleryImg img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 3%;
+}

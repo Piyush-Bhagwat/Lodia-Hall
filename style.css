@@ -193,19 +193,19 @@ a:hover {
     align-items: center;
 }
 
-.welcome h1{
+.welcome h1 {
     line-height: 1.2;
 }
 
-.welcome ul{
+.welcome ul {
     list-style: none;
 }
 
-.welcome ul p{
+.welcome ul p {
     display: inline-block;
 }
 
-.welcome .exprience{
+.welcome .exprience {
     padding: 5px;
     border-radius: 9px;
     background-color: #FFECEF;
@@ -239,21 +239,22 @@ a:hover {
 
 }
 
-.aboutShape{
+.shape {
     position: absolute;
 }
 
-.aboutShape img{
+.shape img {
     height: 200px;
 }
 
-.aboutShape .shape1 {
+.welcome .shape1 {
     top: -247px;
     left: -920px;
     position: absolute;
     transform: rotateZ(308deg);
 }
-.aboutShape .shape2 {
+
+.welcome .shape2 {
     top: 22px;
     left: 634px;
     position: absolute;
@@ -267,14 +268,14 @@ a:hover {
     text-align: center;
 }
 
-.eventCard{
-    width:34%;
+.eventCard {
+    width: 34%;
     text-align: center;
     display: inline-block;
     margin: 20px 20px;
 }
 
-.cardText{
+.cardText {
     background-color: #FFF;
     text-align: center;
     padding: 38px 49px 11px;
@@ -283,7 +284,7 @@ a:hover {
     position: relative;
 }
 
-.cardIcon{
+.cardIcon {
     background-color: #fff;
     font-size: 2.5em;
     display: flex;
@@ -299,11 +300,11 @@ a:hover {
     z-index: 1;
 }
 
-.eventCard img{
+.eventCard img {
     object-fit: cover;
     width: 100%;
     height: 300px;
-    border-radius:10px;
+    border-radius: 10px;
 }
 
 .card {
@@ -332,21 +333,130 @@ a:hover {
     transform: scale(1.2);
 }
 
+/* Gallery */
+.gallery {
+    text-align: center;
+}
+
+.galleryContent .longImg {
+    width: 100%;
+    object-fit: cover;
+    height: 81.5vh;
+}
+
+.galleryContent img {
+    border-radius: 10px;
+
+}
+
+.galleryContent .shortImg {
+    width: 100%;
+    height: 39vh;
+    object-fit: cover;
+}
+
+.galleryContent .top {
+    margin-bottom: 12px;
+}
+
+.galleryContent .bottom {
+    margin-top: 12px;
+}
+
+.gallery .shape1 {
+    top: 553px;
+    left: -314px;
+    position: absolute;
+    transform: rotateZ(267deg);
+}
+
+.gallery .shape2 {
+    top: 63px;
+    left: 1210px;
+    position: absolute;
+    transform: rotateZ(299deg) scale(1.5);
+}
+
+.proofWork {
+    background-color: #ffdee3;
+    padding: 10px;
+    margin: 60px 30px;
+    border-radius: 10px;
+}
+
+.workCard h3,
+.workCard p {
+    display: inline-block;
+
+}
+
+.workCard {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+}
+
+.workIcon {
+    font-size: 3em;
+    background-color: #ff8080;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    color: #fff;
+    position: relative;
+}
+
+.workIcon::before {
+    content: "";
+    border: 3px #ff8080 solid;
+    border-radius: 50%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform: scale(1.16);
+    border-style: dashed;
+    animation: rotate 30s infinite linear;
+
+}
+
+@keyframes rotate {
+
+    from {
+        transform: rotateZ(0) scale(1.16);
+    }
+
+    to {
+        transform: rotateZ(360deg) scale(1.16);
+    }
+
+}
+
+.workContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 /* Reuseable */
 
 .space20 {
     margin: 20px;
 }
 
-.highlight{
+.highlight {
     color: #ff8080;
 }
-.seperator{
+
+.seperator {
     width: 20%;
     margin: 2% 0;
 }
 
-.darkPink{
+.darkPink {
     background-color: #ffdee3;
 }
 
@@ -396,6 +506,10 @@ a:hover {
 
 /* Testimonials */
 
+.testimonial {
+    text-align: center;
+}
+
 .portraitPic {
     height: 350px;
     border-radius: 175px;
@@ -442,6 +556,65 @@ a:hover {
     box-shadow: 0px 3px 0px #251B37;
     color: #251B37;
 }
+
+/* Teams */
+.team{
+    text-align: center;
+}
+
+.teamProfile img {
+    width: 180px;
+    border-radius: 50%;
+}
+
+.teamContainer{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+
+.teamCard div{
+    padding: 12px 0;
+}
+
+.teamProfile::before{
+    content: "";
+    background-image: url(./Images/circleBorder2.png);
+    height: 296px;
+    width: 234px;
+    top: -26px;
+    left: 13px;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.teamCard {
+    background-color: #fff;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.teamSocials i{
+    font-size: 1.4em;
+}
+
+.teamSocials a{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: inline-flex;
+    background-color: #ffdee3;
+    align-items: center;
+    justify-content: center;
+    margin: 0 6px;
+}
+
 
 /* Animation things */
 
@@ -537,36 +710,6 @@ input[type=date]:focus::-webkit-datetime-edit {
 .textFeild input:hover~span::before,
 .textFeild input:valid~span::before {
     width: 100%;
-}
-
-/* Gallery */
-.gallery {
-    padding: 3% 10%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin: 10px 20px 0px 20px;
-}
-
-.galleryBox {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.galleryBox .dream {
-    display: flex;
-    flex-direction: column;
-    width: 35%;
-    padding: 0 0.5%;
-}
-
-.galleryImg img {
-    width: 100%;
-    border-radius: 5px;
-    margin-bottom: 3%;
 }
 
 /* About */

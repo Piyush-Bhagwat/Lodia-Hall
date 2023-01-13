@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
 * {
     box-sizing: border-box;
     padding: 0px;
@@ -6,7 +8,7 @@
 
 html {
     max-width: 100%;
-    overflow-x: visible;
+    overflow-x: hidden;
 }
 
 body {
@@ -28,7 +30,8 @@ h1 {
 }
 
 h2 {
-    font-family: 'Crimson Text', serif;
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: 5px;
     font-size: 3.4em;
 }
 
@@ -48,7 +51,7 @@ h4 {
 p {
     font-family: 'Ubuntu', sans-serif;
     font-weight: lighter;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 /* Navigation Bar */
@@ -140,6 +143,7 @@ a:hover {
     border-radius: 1px;
     background-color: #251B37;
 }
+
 /* content  */
 
 .content {
@@ -182,13 +186,80 @@ a:hover {
 .welcome {
     padding-top: 0;
     padding-bottom: 0;
-    height: 70vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url('./Images/BanquetHall.jpg');
 }
+
+.welcome h1{
+    line-height: 1.2;
+}
+
+.welcome ul{
+    list-style: none;
+}
+
+.welcome ul p{
+    display: inline-block;
+}
+
+.welcome .exprience{
+    padding: 5px;
+    border-radius: 9px;
+    background-color: #FFECEF;
+    width: fit-content;
+    position: absolute;
+    bottom: -695px;
+    left: 185px;
+}
+
+.aboutImage {
+    width: 100%;
+    position: relative;
+}
+
+.aboutImage::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 433px;
+    height: 535px;
+    border: 5px solid #FFCACA;
+    left: -18px;
+    top: -18px;
+    z-index: -1;
+    border-radius: 10px;
+}
+
+.aboutImage img {
+    height: 75vh;
+    border-radius: 10px;
+
+}
+
+.aboutShape{
+    position: absolute;
+}
+
+.aboutShape img{
+    height: 200px;
+}
+
+.aboutShape .shape1 {
+    top: -247px;
+    left: -920px;
+    position: absolute;
+    transform: rotateZ(308deg);
+}
+.aboutShape .shape2 {
+    top: 22px;
+    left: 634px;
+    position: absolute;
+    transform: rotateZ(16deg) scale(1.26);
+}
+
 
 /* Events */
 
@@ -196,6 +267,44 @@ a:hover {
     text-align: center;
 }
 
+.eventCard{
+    width:34%;
+    text-align: center;
+    display: inline-block;
+    margin: 20px 20px;
+}
+
+.cardText{
+    background-color: #FFF;
+    text-align: center;
+    padding: 38px 49px 11px;
+    margin: -24px 24px 0;
+    border-radius: 10px;
+    position: relative;
+}
+
+.cardIcon{
+    background-color: #fff;
+    font-size: 2.5em;
+    display: flex;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: -73px 0;
+    left: 50%;
+    transform: translateX(-50%) translateY(-27px);
+    z-index: 1;
+}
+
+.eventCard img{
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
+    border-radius:10px;
+}
 
 .card {
     background-color: #FFECEF;
@@ -227,6 +336,18 @@ a:hover {
 
 .space20 {
     margin: 20px;
+}
+
+.highlight{
+    color: #ff8080;
+}
+.seperator{
+    width: 20%;
+    margin: 2% 0;
+}
+
+.darkPink{
+    background-color: #ffdee3;
 }
 
 .space40 {
@@ -453,10 +574,6 @@ input[type=date]:focus::-webkit-datetime-edit {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.aboutImage {
-    width: 60vw;
 }
 
 /* Contact */

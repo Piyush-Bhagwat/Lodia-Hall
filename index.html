@@ -4,7 +4,11 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Lodia Hall</title>
-        <link rel="icon" type="image/x-icon" href="./Images/favicon/favicon.ico">
+        <link
+            rel="icon"
+            type="image/x-icon"
+            href="./Images/favicon/favicon.ico"
+        />
 
         <!-- fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -36,10 +40,16 @@
             <h3 class="LogoText">Lodia Hall</h3>
             <nav>
                 <ul class="navLinks">
-                    <li class="navActive"><a href="#home" >Home</a></li>
-                    <li class="nonActive"><a href="./Pages/About.html">About</a></li>
-                    <li class="nonActive"><a href="./Pages/gallery.html">Gallery</a></li>
-                    <li class="nonActive"><a href="Pages/Booking.html">Pricing</a></li>
+                    <li class="navActive"><a href="#home">Home</a></li>
+                    <li class="nonActive">
+                        <a href="./Pages/About.html">About</a>
+                    </li>
+                    <li class="nonActive">
+                        <a href="./Pages/gallery.html">Gallery</a>
+                    </li>
+                    <li class="nonActive">
+                        <a href="Pages/Booking.html">Pricing</a>
+                    </li>
                     <a href="./Pages/Contact.html" class="cta"
                         ><button class="btn">Contact Us</button></a
                     >
@@ -58,12 +68,14 @@
         <section class="content hidden" id="home">
             <div class="row">
                 <div class="col titleCol">
-                    <h1>Make Your Special Day Special With Lodia</h1>
+                    <h1>Make Your Special Day Special With <span class="highlight">Lodia</span></h1>
                     <h4>
                         The more you Celebrate in life, The more there is to
                         Celebrate in life
                     </h4>
-                    <a href="./Pages/Booking.html"><button class="btn bookBtn">Book Now</button></a>
+                    <a href="./Pages/Booking.html"
+                        ><button class="btn bookBtn">Book Now</button></a
+                    >
                 </div>
                 <div class="col g-3 mainPhotoCnt">
                     <img
@@ -75,98 +87,121 @@
             </div>
         </section>
 
-        <div class="subtitle titleHidden" id="about">
-            <h2>Welcome To Lodia</h2>
-        </div>
-
         <section class="welcome hidden">
-            <div class="textContainer">
-                <div class="textBorder">
-                    <p class="welcomeText">
-                        Lodia is one of the most contemporary and
-                        technologically advanced banquet halls in Los Angeles.
-                        We offer specialized, all inclusive amenities and
-                        services which set us apart from the competition.
-                        Whether it's lounging at our custom bridal suite after a
-                        photoshoot or our one of a kind speaker system designed
-                        to project sound only at the dance floor, we have
-                        considered every detail and perfected your experience at
-                        Aurora. We take pride in the versatility and quality of
-                        our venue and services. Our management and staff work
-                        tirelessly to ensure that all events go above and beyond
-                        your expectations. Whether it’s a corporate event or
-                        your wedding day, let’s make it a one of a kind
-                        experience
+            <div class="aboutShape">
+                <div class="shape1">
+                    <img src="./Images/aboutshape1.png" alt="" />
+                </div>
+                <div class="shape2">
+                    <img src="./Images/shape2.png" alt="" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="aboutImage">
+                        <img src="./Images/aboutImage.jpg" alt="" />
+                    </div>
+                    <div class="exprience">
+                        <h2>25+</h2>
+                        <span>Years of Exprience</span>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h1>We Make Your Every <span class="highlight">Moment</span> Special</h1>
+                    <p>
+                        There are many variations of passages of Lorem Ipsum
+                        available, but the majority have suffered alteration in
+                        some form, by injected humour, or randomised words which
+                        don't look even.
                     </p>
+                    <ul>
+                        <li>
+                            <i class="fa-regular fa-circle-check"></i>
+                            <p>Take a look at our round up of the best shows</p>
+                        </li>
+                        <li>
+                            <i class="fa-regular fa-circle-check"></i>
+                            <p>It has survived not only five centuries</p>
+                        </li>
+                        <li>
+                            <i class="fa-regular fa-circle-check"></i>
+                            <p>
+                                Lorem Ipsum has been the ndustry standard dummy
+                                text
+                            </p>
+                        </li>
+                    </ul>
+
+                    <button class="bookBtn btn">Read More</button>
                 </div>
             </div>
         </section>
 
-        <div class="subtitle titleHidden" id="gallery">
-            <h2>Events</h2>
-        </div>
+        <section class="events hidden darkPink">
+            <h2>Our Awesome <span class="highlight">Events</span></h2>
+            <img src="./Images/seprator.png" class="seperator" alt="">
 
-        <section class="events hidden">
-            <div class="row row-cols-1 row-cols-md-2 g-4">
-                <div class="col-lg-6 centerCol">
-                    <div class="card" style="width: 30rem">
-                        <div class="imgContainer card-img-top">
-                            <img
-                                src="Images/BanquetHall.jpg"
-                                class="imgZoom"
-                                alt="..."
-                            />
-                        </div>
-                        <div class="card-body">
-                            <h3 class="card-title">Wedding</h3>
-                        </div>
+            <div class="cardContainer">
+                <div class="eventCard">
+                    <img src="./Images/birthdays.jpg" alt="" />
+                    <div class="cardIcon"><i class="fa-solid fa-gift"></i></div>
+                    <div class="cardText">
+                        <h3>Birthdays</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Harum voluptates natus ipsam delectus iste ex
+                            accusamus similique
+                        </p>
                     </div>
                 </div>
-                <div class="col-lg-6 centerCol">
-                    <div class="card" style="width: 30rem">
-                        <div class="imgContainer">
-                            <img
-                                src="Images/birthdays.jpg"
-                                class="card-img-top imgZoom"
-                                alt="..."
-                            />
-                        </div>
-                        <div class="card-body">
-                            <h3 class="card-title">Birthdays</h3>
-                        </div>
+                <div class="eventCard">
+                    <img src="./Images/wedding.jpg" alt="" />
+                    <div class="cardIcon">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <div class="cardText">
+                        <h3>Wedding</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Harum voluptates natus ipsam delectus iste ex
+                            accusamus similique
+                        </p>
                     </div>
                 </div>
-                <div class="col-lg-6 centerCol">
-                    <div class="card" style="width: 30rem">
-                        <div class="imgContainer">
-                            <img
-                                src="Images/cooprateEvents.jpg"
-                                class="card-img-top imgZoom"
-                                alt="..."
-                            />
-                        </div>
-                        <div class="card-body">
-                            <h3 class="card-title">Cooprate Events</h3>
-                        </div>
+                <div class="eventCard">
+                    <img src="./Images/events.jpg" alt="" />
+                    <div class="cardIcon">
+                        <i class="fa-solid fa-microphone"></i>
+                    </div>
+                    <div class="cardText">
+                        <h3>Events</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Harum voluptates natus ipsam delectus iste ex
+                            accusamus similique
+                        </p>
                     </div>
                 </div>
-                <div class="col-lg-6 centerCol">
-                    <div class="card" style="width: 30rem">
-                        <div class="imgContainer">
-                            <img
-                                src="Images/frehersParty.jpg"
-                                class="card-img-top imgZoom"
-                                alt="..."
-                            />
-                        </div>
-                        <div class="card-body">
-                            <h3 class="card-title">Freshers Party</h3>
-                        </div>
+                <div class="eventCard">
+                    <img src="./Images/party.jpg" alt="" />
+                    <div class="cardIcon">
+                        <i class="fa-solid fa-champagne-glasses"></i>
+                    </div>
+                    <div class="cardText">
+                        <h3>Party</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Harum voluptates natus ipsam delectus iste ex
+                            accusamus similique
+                        </p>
                     </div>
                 </div>
             </div>
+
             <div class="space40"></div>
-            <a href="./Pages/gallery.html"><button class="btn bookBtn">Gallery</button></a>
+            <a href="./Pages/gallery.html"
+                ><button class="btn bookBtn">Gallery</button></a
+            >
         </section>
 
         <div class="subtitle titleHidden">
@@ -273,7 +308,9 @@
 
         <div class="center titleHidden">
             <h2>Book Your Event Now</h2>
-            <a href="./Pages/Booking.html"><button class="btn bookBtn">Book Now</button></a>
+            <a href="./Pages/Booking.html"
+                ><button class="btn bookBtn">Book Now</button></a
+            >
         </div>
 
         <div class="subtitle titleHidden">
@@ -284,39 +321,38 @@
             <div class="textContainer">
                 <div class="textBorder">
                     <div class="row row-cols-1 g-5 row-cols-md-2 centerCol">
-                <div class="col hiItem">
-                    <i class="fa-regular fa-lightbulb"></i>
-                    <h3>Light Show</h3>
-                </div>
+                        <div class="col hiItem">
+                            <i class="fa-regular fa-lightbulb"></i>
+                            <h3>Light Show</h3>
+                        </div>
 
-                <div class="col hiItem">
-                    <i class="fa-solid fa-display"></i>
-                    <h3>LED Screen</h3>
-                </div>
+                        <div class="col hiItem">
+                            <i class="fa-solid fa-display"></i>
+                            <h3>LED Screen</h3>
+                        </div>
 
-                <div class="col hiItem">
-                    <i class="fa-solid fa-smog"></i>
-                    <h3>Fog Machine</h3>
-                </div>
+                        <div class="col hiItem">
+                            <i class="fa-solid fa-smog"></i>
+                            <h3>Fog Machine</h3>
+                        </div>
 
-                <div class="col hiItem">
-                    <i class="fa-solid fa-video"></i>
-                    <h3>Projector</h3>
-                </div>
+                        <div class="col hiItem">
+                            <i class="fa-solid fa-video"></i>
+                            <h3>Projector</h3>
+                        </div>
 
-                <div class="col hiItem">
-                    <i class="fa-solid fa-utensils"></i>
-                    <h3>Catering</h3>
-                </div>
+                        <div class="col hiItem">
+                            <i class="fa-solid fa-utensils"></i>
+                            <h3>Catering</h3>
+                        </div>
 
-                <div class="col hiItem">
-                    <i class="fa-solid fa-user"></i>
-                    <h3>Live Cam</h3>
+                        <div class="col hiItem">
+                            <i class="fa-solid fa-user"></i>
+                            <h3>Live Cam</h3>
+                        </div>
+                    </div>
                 </div>
             </div>
-                </div>
-            </div>
-            
         </section>
 
         <div class="subtitle titleHidden">

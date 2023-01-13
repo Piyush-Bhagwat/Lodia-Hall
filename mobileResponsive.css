@@ -1,0 +1,223 @@
+@media screen and (max-width: 800px) {
+
+    html,
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    .shape {
+        display: none;
+    }
+
+    .aboutImage img {
+        width: 100%;
+        height: auto;
+    }
+
+    .welcome {
+        margin: 20px 0;
+        height: auto;
+    }
+
+    .welcome .exprience {
+        bottom: -12%;
+        left: 24%;
+    }
+
+    .welcome ul {
+        padding: 0;
+    }
+
+    .welcome ul li {
+        display: flex;
+    }
+
+    .welcome .text {
+        margin-top: 55px;
+    }
+
+    .seperator {
+        width: 50%;
+    }
+
+    .eventCard {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .galleryContent img {
+        margin: 12px 0;
+    }
+
+    .cardIcon {
+        font-size: 1.5em;
+    }
+
+    .proofWork {
+        padding: 0;
+        margin: 0;
+    }
+
+    .workContainer {
+        flex-direction: column;
+    }
+
+    .workIcon {
+        font-size: 1.5em;
+        margin: 10px 0;
+    }
+
+    .testPic {
+        width: 100%;
+        height: 200px;
+        margin: 43px 0;
+    }
+
+    .testimonial .circleFrame::before {
+        transform: scale(1.34);
+    }
+
+    .teamContainer{
+        flex-direction: column;
+    }
+
+    .teamCard{
+        margin: 10px 0;
+    }
+
+    .contact .content{
+        height: 85vh;
+        padding: 13px;
+    }
+    .contact{
+        padding: 2% 5%;
+    }
+    .footer{
+        height: auto;
+        text-align: left;
+    }
+    .socials{
+        display: flex;
+        justify-content: space-around;
+    }
+    .footer li i{
+        font-size: 1em;
+    }
+
+    h1 {
+        font-size: 3em;
+        line-height: 1.3;
+    }
+
+    h3 {
+        font-size: 1.6em;
+    }
+
+    i {
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 0.9em;
+    }
+
+    section {
+        text-align: center;
+    }
+
+    .hiItem i {
+        font-size: 1.8em;
+    }
+
+    .Navigation {
+        padding: 60px 10% 10px;
+        position: fixed;
+        background-color: #ffecef;
+        top: -7%;
+        backdrop-filter: none;
+        width: 100%;
+    }
+
+    .content {
+        padding: 18% 10% 3%;
+    }
+
+    .titleCol {
+        align-items: center;
+    }
+
+    .mainPhoto {
+        height: 420px;
+        border-radius: 210px;
+    }
+
+    .portraitPic {
+        height: 240px;
+        border-radius: 120px;
+    }
+
+    .locText {
+        text-align: center;
+
+    }
+
+    .footer i {
+        font-size: 2em;
+        color: #251B37;
+        padding: 2px 5px;
+    }
+
+    .navLinks {
+        position: absolute;
+        right: 0px;
+        height: 99vh;
+        top: 8vh;
+        background-color: #ffecefbf;
+        backdrop-filter: blur(5px);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        transform: translateX(100%);
+        transition: 0.8s ease;
+        justify-content: space-evenly;
+    }
+
+    .navigationActive {
+        transform: translate(0);
+    }
+
+    .navLinks li {
+        opacity: 0%;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .formContainer {
+        width: 80vw;
+    }
+
+    .booking {
+        padding-top: 29%;
+    }
+
+    .gallery {
+        padding: 15% 3%;
+    }
+
+    .galleryBox {
+        flex-direction: column;
+    }
+
+    .galleryBox .dream {
+        width: 100%;
+        padding: 0;
+    }
+
+    .mainIcon {
+        font-size: 2.5em;
+    }
+}

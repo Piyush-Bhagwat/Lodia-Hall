@@ -1,0 +1,32 @@
+
+.testimonial {
+    text-align: center;
+}
+
+.testPic{
+    height: 350px;
+    width: 350px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial .circleFrame::before{
+    transform: scale(1.29);
+}
+
+.portraitPic {
+    height: 80%;
+    border-radius: 50%;
+}
+
+.hiItem {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.hiItem i {
+    font-size: 3em;
+}

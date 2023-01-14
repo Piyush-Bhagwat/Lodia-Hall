@@ -1,0 +1,61 @@
+.team{
+    text-align: center;
+}
+
+.teamProfile img {
+    width: 180px;
+    border-radius: 50%;
+}
+
+.teamContainer{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+
+.teamCard div{
+    padding: 12px 0;
+}
+
+.circleFrame::before{
+    content: "";
+    background-image: url(../Images/circleBorder2.png);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: scale(1.4);
+}
+
+.teamProfile{
+    position: relative;
+}
+
+.teamCard {
+    background-color: #fff;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.teamSocials i{
+    font-size: 1.4em;
+}
+
+.teamSocials a{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: inline-flex;
+    background-color: #ffdee3;
+    align-items: center;
+    justify-content: center;
+    margin: 0 6px;
+}

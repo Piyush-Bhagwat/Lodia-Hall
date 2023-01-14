@@ -1,0 +1,20 @@
+
+.hidden {
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+.show {
+    opacity: 1;
+}
+
+.titleHidden {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 1s ease;
+}
+
+.titleShow {
+    transform: translateY(0);
+    opacity: 1;
+}

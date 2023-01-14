@@ -4,7 +4,17 @@
 @import "./coreElements.css";
 @import "./navStyle.css";
 @import "./heroSection.css";
-@import "./style.css";
 @import "./gallery.css";
+@import "./eventsStyle.css";
+@import "./gallerySetion.css";
+@import "./testimonials.css";
 @import "./reuseable.css";
+@import "./footer.css";
+@import "./team.css";
+@import "./contactSection.css";
+@import "./animation.css";
+@import "./bookingForm.css";
+@import "./contactAndAbout.css";
+
+
 @import "./mobileResponsive.css";

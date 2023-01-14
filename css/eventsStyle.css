@@ -1,0 +1,68 @@
+.events {
+    text-align: center;
+}
+
+.eventCard {
+    width: 34%;
+    text-align: center;
+    display: inline-block;
+    margin: 20px 20px;
+}
+
+.cardText {
+    background-color: #FFF;
+    text-align: center;
+    padding: 38px 49px 11px;
+    margin: -24px 24px 0;
+    border-radius: 10px;
+    position: relative;
+}
+
+.cardIcon {
+    background-color: #fff;
+    font-size: 2.5em;
+    display: flex;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: -73px 0;
+    left: 50%;
+    transform: translateX(-50%) translateY(-27px);
+    z-index: 1;
+}
+
+.eventCard img {
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.card {
+    background-color: #FFECEF;
+    border: none;
+}
+
+.imgContainer {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    border-radius: 5px;
+}
+
+.imgZoom {
+    border-radius: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 1s;
+}
+
+.imgZoom:hover {
+    transform: scale(1.2);
+}

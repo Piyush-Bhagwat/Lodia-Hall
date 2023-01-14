@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0;
+}
+
+html {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #FFECEF;
+    scroll-behavior: smooth;
+    max-width: 100%;
+    overflow-x: visible;
+}
+
+section {
+    padding: 2% 10%;
+}
+
+h1 {
+    font-family: 'Crimson Text', serif;
+    font-size: 4em;
+    font-weight: bold;
+    line-height: 1.6;
+}
+
+h2 {
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: 5px;
+    font-size: 3.4em;
+}
+
+h3 {
+    font-family: 'Crimson Text', serif;
+    font-size: 3em;
+}
+
+h4 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2rem;
+    word-spacing: 3px;
+    line-height: 1.5;
+    font-weight: lighter;
+}
+
+p {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: lighter;
+    font-size: 1em;
+}
+
+li,
+a,
+button {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #251B37;
+    text-decoration: none;
+}

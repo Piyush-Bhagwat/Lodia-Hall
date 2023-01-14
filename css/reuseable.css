@@ -1,0 +1,69 @@
+
+.shape {
+    position: absolute;
+}
+
+.shape img {
+    height: 200px;
+}
+
+.space20 {
+    margin: 20px;
+}
+
+.highlight {
+    color: #ff8080;
+}
+
+.seperator {
+    width: 20%;
+    margin: 2% 0;
+}
+
+.darkPink {
+    background-color: #ffdee3;
+}
+
+.space40 {
+    margin: 40px;
+}
+
+.subtitle {
+    background-color: #FFCACA;
+    text-align: center;
+    margin: 0px 0px;
+    padding: 30px;
+}
+
+.centerCol {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.verticalCenter {
+    display: flex;
+    align-items: center;
+}
+
+.center {
+    text-align: center;
+    padding: 20px;
+}
+
+.textContainer {
+    background-color: #fff3f3;
+    height: fit-content;
+    padding: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+
+}
+
+.textBorder {
+    padding: 1.5%;
+    border: 3px solid #FFCACA;
+    border-radius: 5px;
+}

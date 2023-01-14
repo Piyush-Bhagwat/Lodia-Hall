@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+
+@import "./coreElements.css";
+@import "./navStyle.css";
+@import "./heroSection.css";
+@import "./style.css";
+@import "./gallery.css";
+@import "./reuseable.css";
+@import "./mobileResponsive.css";

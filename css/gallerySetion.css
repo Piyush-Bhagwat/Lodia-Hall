@@ -28,15 +28,15 @@
 }
 
 .gallery .shape1 {
-    top: 553px;
-    left: -314px;
+    top: -445px;
+    left: -921px;
     position: absolute;
-    transform: rotateZ(267deg);
+    transform: rotateZ(285deg);
 }
 
 .gallery .shape2 {
-    top: 63px;
-    left: 1210px;
+    top: 126px;
+    left: 601px;
     position: absolute;
     transform: rotateZ(299deg) scale(1.5);
 }

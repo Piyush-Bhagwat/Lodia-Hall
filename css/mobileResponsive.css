@@ -54,6 +54,10 @@
         font-size: 1.5em;
     }
 
+    .cardText{
+        padding: 38px 15px 11px;
+    }
+
     .proofWork {
         padding: 0;
         margin: 0;
@@ -75,7 +79,7 @@
     }
 
     .testimonial .circleFrame::before {
-        transform: scale(1.34);
+        transform: scale(1.18);
     }
 
     .teamContainer{
@@ -153,7 +157,7 @@
     }
 
     .portraitPic {
-        height: 240px;
+        height: 208px;
         border-radius: 120px;
     }
 

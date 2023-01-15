@@ -10,7 +10,8 @@
 .teamSlider{
     display: flex;
     justify-content: space-around;
-    width: calc(280px * 8);
+    width: calc(300px * 8);
+    padding: 2% 0;
     animation: scroll 40s 3s infinite linear;
 }
 
@@ -19,7 +20,7 @@
         transform: translateX(0);
     }
     to{
-        transform: translateX(-1032px);
+        transform: translateX(-1132px);
 
     }
 }
@@ -59,6 +60,7 @@
     padding: 20px;
     position: relative;
     border-radius: 10px;
+    box-shadow: 7px 5px 9px 0px #00000038;
 }
 
 .teamSocials i{

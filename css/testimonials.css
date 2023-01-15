@@ -13,11 +13,11 @@
 }
 
 .testimonial .circleFrame::before{
-    transform: scale(1.29);
+    transform: scale(1.2);
 }
 
 .portraitPic {
-    height: 80%;
+    height: 75%;
     border-radius: 50%;
 }
 

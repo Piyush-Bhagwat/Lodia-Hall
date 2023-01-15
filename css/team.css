@@ -7,9 +7,25 @@
     border-radius: 50%;
 }
 
-.teamContainer{
+.teamSlider{
     display: flex;
     justify-content: space-around;
+    width: calc(280px * 8);
+    animation: scroll 40s 3s infinite linear;
+}
+
+@keyframes scroll {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-1032px);
+
+    }
+}
+
+.teamContainer{
+    overflow: hidden;
     margin: 30px 0;
 }
 

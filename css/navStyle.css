@@ -42,20 +42,6 @@ a:hover {
     color: #251B37;
 }
 
-.btn {
-    color: #251B37;
-    border: 2px solid #251B37;
-    border-radius: 22px;
-    padding: 8px 18px;
-    transition: 0.3s cubic-bezier(0.5, 2.5, 0.75, 0.12);
-}
-
-.btn:hover {
-    color: #251B37;
-    transform: translateY(-5px);
-    box-shadow: 0px 5px 0px #251B37;
-}
-
 /* Burger Animaytion */
 
 .burger {

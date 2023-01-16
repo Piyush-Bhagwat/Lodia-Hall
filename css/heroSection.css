@@ -12,20 +12,6 @@
     /* box-shadow: 7px 9px 18px 3px #8f8486; */
 }
 
-.bookBtn {
-    background-color: #FFCACA;
-    border-radius: 26px;
-    padding: 8px 30px;
-    border: none;
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: bold;
-    font-size: 1.6em;
-}
-
-.bookBtn:hover {
-    background-color: #FFCACA;
-}
-
 .titleCol {
     display: flex;
     flex-direction: column;

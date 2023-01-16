@@ -11,10 +11,10 @@
 @import "./reuseable.css";
 @import "./footer.css";
 @import "./team.css";
-@import "./contactSection.css";
 @import "./animation.css";
 @import "./bookingForm.css";
 @import "./contactAndAbout.css";
+@import "./contactSection.css";
 
 
 @import "./mobileResponsive.css";
